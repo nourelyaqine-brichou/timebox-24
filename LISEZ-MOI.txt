@@ -1,0 +1,11 @@
+TIMEBOX 24H — GitHub Pages
+
+1. Crée un dépôt GitHub public nommé timebox-24h.
+2. Téléverse les fichiers index.html, manifest.json, sw.js et icon.svg directement à la racine du dépôt.
+3. Ouvre Settings > Pages.
+4. Sous Build and deployment, choisis Deploy from a branch, branche main et dossier /(root), puis Save.
+5. Attends la publication et ouvre l’URL affichée par GitHub Pages.
+
+Utilisation : choisis une date, ajoute des tâches avec heure de début et de fin, marque-les comme terminées et exporte régulièrement une sauvegarde JSON. Les créneaux qui se chevauchent sont refusés. Les données sont enregistrées localement sur l’appareil.
+
+IMPORTANT POUR LES RAPPELS : cette application statique produit des rappels lorsque la page exécute son code. Les navigateurs peuvent suspendre les minuteurs en arrière-plan et elle ne garantit pas d’alarme lorsque l’application est complètement fermée. Des notifications fiables à application fermée demanderaient un service push avec serveur. Sur iPhone, ajoute le site à l’écran d’accueil depuis Safari; les notifications web nécessitent iOS compatible et l’autorisation de l’utilisateur.
